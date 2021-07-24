@@ -1,0 +1,66 @@
+* {
+  font-family: "Gentona", sans-serif;
+}
+#header-nav {
+  background-color: #B8DFD8;
+  border-radius: 0;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+.navbar-brand h1 { 
+  color: #4C4C6D;
+  font-size: 2.5em;
+  -webkit-text-stroke: 1px #4C4C6D;
+  -webkit-text-fill-color: #FFE194; 
+  margin-top: -19px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: #E8F6EF;
+}
+#nav-list a {
+  color: #4C4C6D;
+  font-size: 1.25em;
+}
+#nav-list a:hover {
+  background-color: #FFE194;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #4C4C6D;
+}
+.navbar-header button.navbar-toggle:focus, button.navbar-toggle:active {
+  background-color: #E8F6EF;
+  }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #E8F6EF;
+}
+#main-content {
+padding-bottom: 30px;
+}
+h2 {
+  color: #4C4C6D;
+  font-size: 2.5em;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+    color: #4C4C6D;
+    text-align: justify;
+    background-color: #E8F6EF;
+    border-radius: 2px;
+    border: 1px solid #B8DFD8;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+}
+a {
+  color: #4C4C6D;
+  text-decoration: none;
+}
+p > a:hover {
+  color: #B8DFD8;
+  text-shadow: 1px 1px 1px #4C4C6D;
+  text-decoration: none;
+}
